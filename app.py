@@ -63,7 +63,8 @@ try:
     if(mode=="Physical"):
         tabletService = st.session_state.session.service("ALTabletService")
         tabletService.showImage("https://lh7-us.googleusercontent.com/docsz/AD_4nXfJtrHluXnAqOKaCKUdys9z2Bq4X9DeQqhlRQLCBEAoCG0D1EBPCrP3s7PS3FjLks1-nlJwXgb4DyfyrZJ3_TixESl4DPpAc-9HFSUFru90zGfy1xjB0Y4V1WlisA84_NmL28Kj7DLg4vULv7Ne69J0fiJ1?key=kjxxw8M2y0vUZpf5IGI7aA")
-
+        posture_service = st.session_state.session.service("ALRobotPosture")
+        posture_service.goToPosture("StandInit", 1.0)
 
     # Play an animation
     def animation(button_name,description,mode):
