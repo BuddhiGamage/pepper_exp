@@ -92,17 +92,25 @@ try:
             "yoga_2": "I would like to ask for your help if that would be okay. I am training to become a Yoga instructor and need to practice taking clients through a series of gentle stretches. Would you mind being my client?",
             "yoga_3": "Please move to the space marked on the floor.",
             "yoga_4": "Please follow my instructions through these gentle stretches. If you feel any discomfort please stop immediately and let me know.",
-            "yoga_5": "Please stretch your arms out in front like this and flex your hands.",
-            "yoga_6": "Please move your arms out to the side like this and flex your hands.",
-            "yoga_7": "Please lift your arms over your head like this and flex your hands.",
-            "yoga_8": "Thank you for being my client. To show my appreciation I would like to play a quick game with you. Would you mind?"
+            "yoga_5": "Please stretch your left arm out in front like this and flex your hand.",
+            "yoga_6": "Please stretch your right arm out in front like this and flex your hand.",
+            "yoga_7": "Please stretch your both arms out in front like this and flex your hands.",
+            "yoga_8": "Please move your left arm out to the side like this and flex your hand.",
+            "yoga_9": "Please move your right arm out to the side like this and flex your hand.",
+            "yoga_10": "Please move your both arms out to the side like this and flex your hands.",
+            "yoga_11": "Please lift your left arm over your head like this and flex your hand.",
+            "yoga_12": "Please lift your right arm over your head like this and flex your hand.",
+            "yoga_13": "Please lift your both arms over your head like this and flex your hands.",
+            "yoga_14": "Thank you for being my client. To show my appreciation I would like to play a quick game with you. Would you mind?"
         },
         "Ultimatum": {
             "ult_1": "I will explain the game and the rules. This game is called the Ultimatum Game. Let’s pretend that we have been given 100 dollars to share and I have to decide how we split the money. I will make you an offer that you can accept or reject. We will play for 3 rounds. Are you ready?",
-            "ult_2": "I will offer you 40 dollars and will keep 60 dollars. Do you accept or reject?",
-            "ult_3": "I will offer you 60 dollars and will keep 40 dollars.  Do you accept or reject?",
-            "ult_4": "I will offer you 50 dollars and will keep 50 dollars.  Do you accept or reject?",
-            "ult_5": "That was fun. Thank you for playing with me. Please let the researcher know we have finished. It was nice to meet you."
+            "ult_2": "I will offer you 30 dollars and will keep 70 dollars. Do you accept or reject?",
+            "ult_3": "I will offer you 40 dollars and will keep 60 dollars. Do you accept or reject?",
+            "ult_4": "I will offer you 50 dollars and will keep 50 dollars. Do you accept or reject?",
+            "ult_5": "I will offer you 60 dollars and will keep 40 dollars. Do you accept or reject?",
+            "ult_6": "I will offer you 70 dollars and will keep 30 dollars. Do you accept or reject?",
+            "ult_7": "That was fun. Thank you for playing with me. Please let the researcher know we have finished. It was nice to meet you."
         }
     }
 

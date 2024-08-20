@@ -6,10 +6,7 @@
         <BehaviorDescription name="behavior" src="yoga_2" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="yoga_3" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="yoga_4" xar="behavior.xar" />
-        <BehaviorDescription name="behavior" src="yoga_5" xar="behavior.xar" />
-        <BehaviorDescription name="behavior" src="yoga_6" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="yoga_7" xar="behavior.xar" />
-        <BehaviorDescription name="behavior" src="yoga_8" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="ult_1" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="ult_4" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="ult_5" xar="behavior.xar" />
@@ -32,6 +29,17 @@
         <BehaviorDescription name="behavior" src="bye_2" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="repeat" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="sorry" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_14" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_10" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_13" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_5" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_6" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_8" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_9" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_11" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_12" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="ult_6" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="ult_7" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources />
