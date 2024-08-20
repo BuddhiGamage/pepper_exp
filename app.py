@@ -175,7 +175,7 @@ try:
         selected_script = st.selectbox("Select a script", options=list(scripts.keys()), index=0)
         # Display buttons and descriptions based on the selected script
         for button_name, description in scripts[selected_script].items():
-            col1, col2 = st.columns([1, 4])  # Adjust the ratio as needed
+            col1, col2 = st.columns([1.5, 3.5])  # Adjust the ratio as needed
             with col1:
                 if st.button(button_name):  # Create the button
                     st.write(f"{button_name} pressed")
