@@ -9,6 +9,11 @@ import time
 st.title('Pepper Experiment')
 session = None
 
+# Initialize the physical count to run the inital stand once.
+if 'stand_count' not in  st.session_state:
+    st.session_state.stand_count=0
+
+
 # Initialize session state for the text input
 if 'port_value' not in st.session_state:
     st.session_state.port_value = ""
@@ -61,10 +66,12 @@ try:
 
     # set the aldebaran image in physical robot
     if(mode=="Physical"):
-        tabletService = st.session_state.session.service("ALTabletService")
-        tabletService.showImage("https://lh7-us.googleusercontent.com/docsz/AD_4nXfJtrHluXnAqOKaCKUdys9z2Bq4X9DeQqhlRQLCBEAoCG0D1EBPCrP3s7PS3FjLks1-nlJwXgb4DyfyrZJ3_TixESl4DPpAc-9HFSUFru90zGfy1xjB0Y4V1WlisA84_NmL28Kj7DLg4vULv7Ne69J0fiJ1?key=kjxxw8M2y0vUZpf5IGI7aA")
-        posture_service = st.session_state.session.service("ALRobotPosture")
-        posture_service.goToPosture("StandInit", 1.0)
+        if(st.session_state.stand_count==0):
+            tabletService = st.session_state.session.service("ALTabletService")
+            tabletService.showImage("https://lh7-us.googleusercontent.com/docsz/AD_4nXfJtrHluXnAqOKaCKUdys9z2Bq4X9DeQqhlRQLCBEAoCG0D1EBPCrP3s7PS3FjLks1-nlJwXgb4DyfyrZJ3_TixESl4DPpAc-9HFSUFru90zGfy1xjB0Y4V1WlisA84_NmL28Kj7DLg4vULv7Ne69J0fiJ1?key=kjxxw8M2y0vUZpf5IGI7aA")
+            posture_service = st.session_state.session.service("ALRobotPosture")
+            posture_service.goToPosture("StandInit", 1.0)
+            st.session_state.stand_count+=1
 
     # Play an animation
     def animation(button_name,description,mode):
