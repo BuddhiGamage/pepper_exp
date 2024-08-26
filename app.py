@@ -102,13 +102,13 @@ try:
             "yoga_4": "Please follow my instructions through these gentle stretches. If you feel any discomfort please stop immediately and let me know.",
             "yoga_5": "Please stretch your left arm out in front like this and flex your hand.",
             "yoga_6": "Please stretch your right arm out in front like this and flex your hand.",
-            "yoga_7": "Please stretch your both arms out in front like this and flex your hands.",
+            "yoga_7": "Please stretch both arms out in front like this and flex your hands.",
             "yoga_8": "Please move your left arm out to the side like this and flex your hand.",
             "yoga_9": "Please move your right arm out to the side like this and flex your hand.",
-            "yoga_10": "Please move your both arms out to the side like this and flex your hands.",
+            "yoga_10": "Please move both arms out to the side like this and flex your hands.",
             "yoga_11": "Please lift your left arm over your head like this and flex your hand.",
             "yoga_12": "Please lift your right arm over your head like this and flex your hand.",
-            "yoga_13": "Please lift your both arms over your head like this and flex your hands.",
+            "yoga_13": "Please lift both arms over your head like this and flex your hands.",
             "yoga_14": "Thank you for being my client. To show my appreciation I would like to play a quick game with you. Would you mind?"
         },
         "Ultimatum": {
