@@ -40,6 +40,7 @@
         <BehaviorDescription name="behavior" src="yoga_12" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="ult_6" xar="behavior.xar" />
         <BehaviorDescription name="behavior" src="ult_7" xar="behavior.xar" />
+        <BehaviorDescription name="behavior" src="yoga_15" xar="behavior.xar" />
     </BehaviorDescriptions>
     <Dialogs />
     <Resources />

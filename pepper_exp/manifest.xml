@@ -12,6 +12,9 @@
  <contents>
   <behaviorContent path="yoga_1">
    <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="yoga_2">
@@ -104,6 +107,9 @@
   </behaviorContent>
   <behaviorContent path="bye_1">
    <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="bye_2">
@@ -120,6 +126,9 @@
   </behaviorContent>
   <behaviorContent path="yoga_14">
    <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
    <permissions/>
   </behaviorContent>
   <behaviorContent path="yoga_10">
@@ -159,6 +168,10 @@
    <permissions/>
   </behaviorContent>
   <behaviorContent path="ult_7">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="yoga_15">
    <nature>interactive</nature>
    <permissions/>
   </behaviorContent>
