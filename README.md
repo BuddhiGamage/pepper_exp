@@ -50,8 +50,8 @@ This project is a Streamlit-based web interface for interacting with the Pepper 
 ### App installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/BuddhiGamage/pepper_streamlit.git
-   cd pepper_streamlit
+   git clone https://github.com/BuddhiGamage/pepper_exp.git
+   cd pepper_exp
 
 2. **Install dependencies:**
    ```bash
